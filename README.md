@@ -60,6 +60,8 @@ Let's take a look at another example. This time, we'll build it out together:
 
 ## Code Along I: Has Many and Belongs To
 
+***This is a code along exercise! Fork and clone this lab by clicking the "view on github" link at the top of the page**. There are no tests, just follow along with this walk-through to get your code working. 
+
 For this domain model we're taking a small trip back in time, to the '90s. We have two classes––`NinetiesTeen` and `CD`. Our `NinetiesTeen`agers will have the ability to have a CD collection. So, a teen will have many CDs and a CD will belong to a teen. This exercise introduces a new(ish) association for us––the "has many" association. In fact, we've seen this before. In a previous lab we built an `Owner` class and a `Pet` class. Owners had a collection of pets and individual pets could belong to an owner. 
 
 ### Step 1: Defining Our Models
