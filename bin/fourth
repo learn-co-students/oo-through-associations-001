@@ -1,0 +1,18 @@
+require_relative '../lib/nineties_teen.rb'
+require_relative '../lib/cd.rb'
+require_relative '../lib/coupon.rb'
+
+
+teen = NinetiesTeen.new("Stacy")
+
+tlc = CD.new("CrazySexyCool", "TLC")
+savage_garden = CD.new("Affirmation", "Savage Garden")
+
+teen.buy_cd(tlc)
+
+teen.buy_cd(savage_garden)
+
+puts "I'm gonna save so much money on CDs. Look at all my coupons:"
+teen.my_coupons.each do |coupon|
+  puts coupon.discount
+end

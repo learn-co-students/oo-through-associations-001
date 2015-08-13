@@ -1,0 +1,13 @@
+require_relative '../lib/nineties_teen.rb'
+require_relative '../lib/cd.rb'
+
+teen = NinetiesTeen.new("Stacy")
+tlc = CD.new("CrazySexyCool", "TLC")
+savage_garden = CD.new("Affirmation", "Savage Garden")
+teen.buy_cd(tlc)
+teen.buy_cd(savage_garden)
+
+teen.my_cd_collection
+
+puts tlc.teen.name
+puts savage_garden.teen.name

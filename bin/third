@@ -1,0 +1,21 @@
+require_relative '../lib/nineties_teen.rb'
+require_relative '../lib/cd.rb'
+require 'pry'
+
+#instantiate a teenage
+teen = NinetiesTeen.new("Stacy")
+
+#instantiate two cds
+tlc = CD.new("CrazySexyCool", "TLC")
+savage_garden = CD.new("Affirmation", "Savage Garden")
+
+#associate the teen to the cds via the buy_cd method
+teen.buy_cd(tlc)
+teen.buy_cd(savage_garden)
+
+#print out the teen's cd collection
+teen.my_cd_collection
+
+#print out the name of the teen who owns these two cds. 
+puts tlc.teen.name
+puts savage_garden.teen.name

@@ -1,0 +1,10 @@
+tags: 
+  - object orienation
+  - associations
+  - has many
+  - belongs to
+  - through
+languages: 
+  - Ruby
+resources: 
+  - 0
