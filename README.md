@@ -310,7 +310,7 @@ class NinetiesTeen
     cd.teen = self
     new_coupon = Coupon.new
     cd.coupon = new_coupon
-    coupon.cd = cd
+    new_coupon.cd = cd
   end
 end
 ```
