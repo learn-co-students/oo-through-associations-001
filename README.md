@@ -23,8 +23,7 @@ In this exercise, we going to go deeper into the concept of *association*, in pa
 
 ## Assocation Review: Belongs To
 
-In the Code Along at the beginning of this unit, we associated instance of the Person class to one another through a `get_married` method. Let's re-visit that here: 
-
+We could imagine two instances of the `Person` class becoming associated to one another through a relationship like marriage. Let's say we have a `get_married` instance method that is called on an instance of `Person`, takes in an argument of another `Person` instance and associates those two instances to one another. Take a look at the code below: 
 
 ```ruby
 class Person 
@@ -40,7 +39,7 @@ class Person
   end
 ```
 
-Now, with those code, we can do the following:
+Now, we can do the following:
 
 ```ruby
 beyonce = Person.new("Beyonce")
