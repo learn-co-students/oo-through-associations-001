@@ -65,7 +65,7 @@ For this domain model we're taking a small trip back in time, to the '90s. We ha
 
 ### Step 1: Defining Our Models
 
-Open up the `lib` directory and you'll see two files, `nineties_teen.rb` and `cd.rb`. Let's start by building out our `NinetiesTeen` class. That class should be initialized with a name that it takes in as an argument. It should also be initialized with an `@cd_collection` variable that is set equal to an empty array. While we're at it, let's make an `attr_accessor` for `name`. We need to greate an `attr_accessor` for `cd_collection`. This `attr_accessor` will hold the `@cd_collection` array for us. It knows to contain that array due to the super-smart naming conventions of Ruby. 
+Open up the `lib` directory and you'll see two files, `nineties_teen.rb` and `cd.rb`. Let's start by building out our `NinetiesTeen` class. That class should be initialized with a name that it takes in as an argument. It should also be initialized with an `@cd_collection` variable that is set equal to an empty array. While we're at it, let's make an `attr_accessor` for `name`. We need to create an `attr_accessor` for `cd_collection`. This `attr_accessor` will hold the `@cd_collection` array for us. It knows to contain that array due to the super-smart naming conventions of Ruby. 
 
 With our `cd_collection` `attr_accessor` in place, a teen can retrieve, or "get", their cd collection *and* add to, or "set" their cd collection. 
 
