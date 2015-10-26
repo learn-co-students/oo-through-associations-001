@@ -234,7 +234,7 @@ Okay, now that we've covered the basics, we're ready to talk about **through ass
 
 ## Code Along II: Through Associations 
 
-Okay, we're going to complicate this a little further by adding another class into our domain model. Let's say it's actually the *late* '90s, MP3s are on the rise and Sam Goody's business isn't doing so hot. In order to bolster sales, they've started offering a $10 off coupon to their cusomters every time they buy a CD, to be applied to their next purchase. Let's build our `Coupon` class and give individual coupons the ability to be associated to CDs. 
+Okay, we're going to complicate this a little further by adding another class into our domain model. Let's say it's actually the *late* '90s, MP3s are on the rise and Sam Goody's business isn't doing so hot. In order to bolster sales, they've started offering a $10 off coupon to their customers every time they buy a CD, to be applied to their next purchase. Let's build our `Coupon` class and give individual coupons the ability to be associated to CDs. 
 
 ### Step 1: Building the Model
 
